@@ -6,13 +6,11 @@ At given periods throughout trading hours, a random stock is chosen from the S&P
 
 $\frac{b-a}{2} * sin(UnitedStatesDebt * CME) + \frac{b+a}{2}$
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7Bb-a%7D%7B2%7D%20%20%2A%20sin%28UnitedStatesDebt%20%2A%20CME%29%20%2B%20%20%5Cfrac%7Bb%2Ba%7D%7B2%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
 where CME is the [number of things that will get hit by our Sun's Coronal Mass Ejections that day.](https://kauai.ccmc.gsfc.nasa.gov/DONKI/WS/get/CME?startDate=2023-10-09&endDate=2023-10-09)
 
 In using this Random Number Generator (RNG), it doesn't make much since for it to create negative number because I can't buy a negative number of stocks. So, a = 0 thus producing the equation 
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7Bb%7D%7B2%7D%20%20%2A%20sin%28UnitedStatesDebt%20%2A%20CME%29%20%2B%20%20%5Cfrac%7Bb%7D%7B2%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+$\frac{b}{2} * sin(UnitedStatesDebt * CME) + \frac{b}{2}$
 
 where b is the maximum value I want to generate
 
