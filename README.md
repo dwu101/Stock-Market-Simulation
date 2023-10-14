@@ -4,6 +4,8 @@ The Stock Market is extremely complex and dependent on many factors, making it v
 
 At given periods throughout trading hours, a random stock is chosen from the S&P500 and a random amount is either bought or sold. To create randomness, I didn't want to use Python's "random" library because it's not really random (though nothing really is), so I opted to utilize my own method of generating a random value between two values a,b where a < b:
 
+$\frac{b-a}{2} * sin(UnitedStatesDebt * CME) + \frac{b+a}{2}$
+
 ![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7Bb-a%7D%7B2%7D%20%20%2A%20sin%28UnitedStatesDebt%20%2A%20CME%29%20%2B%20%20%5Cfrac%7Bb%2Ba%7D%7B2%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 where CME is the [number of things that will get hit by our Sun's Coronal Mass Ejections that day.](https://kauai.ccmc.gsfc.nasa.gov/DONKI/WS/get/CME?startDate=2023-10-09&endDate=2023-10-09)
