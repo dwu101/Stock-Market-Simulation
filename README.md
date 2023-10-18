@@ -14,7 +14,7 @@ $\frac{b}{2} * sin(UnitedStatesDebt * CME) + \frac{b}{2}$
 
 where b is the maximum value I want to generate
 
-If the U.S. debt (taken from [this website](https://www.usdebtclock.org/world-debt-clock.html)) is even, then I wish to buy. Of the 500 stocks in the S&P500, I need to choose one to buy. So, I generate a value between 0 and 500 using the equation above and I buy the stock that is at that location in the list of S&P500 companies sorted alphabetically. So, if the equation spits out 300, then I buy the 300th stock in the alphabetized list of S&P500 companies. Then, I use the equation again to generate the amount of stocks I can buy, with the max amount being 400 shares.
+If the U.S. debt (taken from [this website](https://www.usdebtclock.org/world-debt-clock.html)) is even, then I wish to buy. Of the 500 stocks in the S&P500 (currently is NASDAQ, but will change because NASDAQ has way too many stocks in it...), I need to choose one to buy. So, I generate a value between 0 and 500 using the equation above and I buy the stock that is at that location in the list of S&P500 companies sorted alphabetically. So, if the equation spits out 300, then I buy the 300th stock in the alphabetized list of S&P500 companies. Then, I use the equation again to generate the amount of stocks I can buy, with the max amount being 400 shares.
 
 If the U.S. debt is odd, then I randomly select a share from the current portfolio using the equation above and randomly choose an amount to sell.
 
