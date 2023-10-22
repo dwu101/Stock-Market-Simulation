@@ -71,4 +71,4 @@ def main():
     print(getDebt())
     print(getStockPrice("AAPL"))
 
-main()
+# main()
